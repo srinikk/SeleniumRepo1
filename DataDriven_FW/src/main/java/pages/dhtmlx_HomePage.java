@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class dhtmlx_HomePage {
 	
-	private WebDriver driver;
+	 WebDriver driver;
 	
 	@FindBy(xpath="//div[contains(@class,'dhxtree_material')]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/div[1]")
 	WebElement main_hierarchy;

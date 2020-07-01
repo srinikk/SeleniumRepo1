@@ -123,7 +123,7 @@ public class ExcelXUtil {
 	
 	public static void main(String[] args) throws IOException {
 		// String projectPath= System.getProperty("user.dir");
-		File excelFile = new File("C:\\Users\\JAYDEBJANA\\Desktop\\Products_Data.xlsx");
+		
 		ExcelXUtil excel = new ExcelXUtil("C:\\Users\\JAYDEBJANA\\Desktop\\Products_Data.xlsx");
 		System.out.println(excel.getRowCount("Sheet1"));
 		System.out.println(excel.getColumnCount("Sheet1", 1));

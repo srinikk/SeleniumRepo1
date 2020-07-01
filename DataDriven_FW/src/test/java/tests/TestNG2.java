@@ -9,7 +9,7 @@ public class TestNG2 {
 	@Test
 	public void test2()  {
 		System.out.println("test2");
-		assertEquals(true, false);
+		assertEquals(true, true);
 		
 	}
 
